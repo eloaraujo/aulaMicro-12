@@ -10,4 +10,7 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'aula12';
+  //booleano para criar se o campo está habilitado ou desabilitado
+
+  desabilitado: boolean = true;
 }
